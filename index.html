@@ -35,10 +35,65 @@
             <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
           </ul>
            <ul class="navbar-nav ms-auto fs-6">
-            <li class="nav-but"><a class="btn btn-outline-primary" href="#">Register</a></li>
-           </ul>
+            <li class="nav-but">
+              <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#registration">Register</a></li>
+          </ul>
+          </div>
+  <!-- Modal -->
+<div class="modal fade" id="registration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register Form </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+     <!-- Registration Form Start -->
+     <form class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-12">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+
+      <div class="col-12">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Select Your Course</option>
+          <option>Web Design</option>
+          <option>Graphics Design</option>
+        </select>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
         </div>
       </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+     <!-- Registration Form End -->
+      </div>
+      <div class="modal-footer">
+       Welcome My Service &copy; By Sofware IT LTD
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Model End -->
+          </div>
     </nav>  
 <!-- Manu ber END -->
 <!-- Web Banner Part Start -->
